@@ -1,0 +1,16 @@
+{
+    "version": "0.0.1",
+    "name": "ExtensityAI/timezone",
+    "description": "Convert between time zones.",
+    "expressions": [
+        {
+            "module": "src/func",
+            "type": "Timezone"
+        }
+    ],
+    "run": {
+        "module": "src/func",
+        "type": "Timezone"
+    },
+    "dependencies": []
+}
