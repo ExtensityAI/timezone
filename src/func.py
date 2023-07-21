@@ -4,6 +4,7 @@ from difflib import SequenceMatcher
 
 
 FUNCTION_DESCRIPTION = '''Convert between time zones based on the country and time table below.
+Elaborate on the countries and time zones that are not included in the table.
 Do A step-by-step computation of the difference and then reply based on the user request.
 
 List
