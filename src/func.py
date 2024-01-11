@@ -616,8 +616,8 @@ ZW	Africa/Harare		Link†	+02:00	+02:00	CAT'''
 
 
 class Timezone(Expression):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.fn = Function(FUNCTION_DESCRIPTION)
 
     def find_substring(self, country):
